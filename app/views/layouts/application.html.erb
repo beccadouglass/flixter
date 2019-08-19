@@ -17,18 +17,12 @@
         </button>
        <a class="navbar-brand" href="#">Flixter</a>
 
-      <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <%%= link_to 'See All Courses', courses_path, class: 'nav-link' %>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul> -->
+        </ul>
         <ul class="navbar-nav">
           <% if user_signed_in? %>
             <li class="nav-item">
@@ -59,7 +53,7 @@
       <div class="container">
         <b>Teachers</b>
         <br />
-        <%= link_to 'Teach A Course', 'new_instructor_course_path ' %>
+          <%= link_to 'Teach a Course', new_instructor_course_path %>
       </div>
     </div>
 

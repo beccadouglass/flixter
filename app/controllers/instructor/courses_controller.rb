@@ -8,7 +8,7 @@ class Instructor::CoursesController < ApplicationController
         @course = current_user.courses.create(course_params)
         if @course.valid?
             redirect_to instructor_course_path(@course)
-        else
+          else
             render :new, status: :unprocessable_entity
         end
     end
@@ -16,6 +16,7 @@ class Instructor::CoursesController < ApplicationController
     def show
         @course = Course.find(params[:id])
     end
+
     private
 
     def course_params

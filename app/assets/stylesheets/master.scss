@@ -4,17 +4,18 @@
     font-family: "Helvetica Neue", sans-serif;
     box-shadow: 0px 2px 2px #78797B;
     font-weight: 200;
-    background: image_url('random_grey_variations.png');
+    color: rgb(105, 67, 26);
+    background: image_url('green-fibers.png'); 
 }
 
 .navbar-inverse .navbar-brand {
     font-family: 'norwesterregular', sans-serif;
     font-size: 26px;
-    color: white;
+    color: rgb(191, 222, 250);
 }
 
 .hero {
-    background: image_url('hero3.jpg') no-repeat center center fixed;
+    background: image_url('hero4.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,11 +70,11 @@ body {
     padding: 10px
 }
 
-  .booyah-box h2, .booyah-box h1 {
+.booyah-box h2, .booyah-box h1 {
     margin: 10px;
   }
 
-  .help-block {
+.help-block {
     color: #ff3333;
     background-color: #FFEEEE;
     border-radius: 3px;
@@ -81,6 +82,6 @@ body {
     margin: 10px;
   }
 
-  .clr {
+.clr {
       clear: both;
   }

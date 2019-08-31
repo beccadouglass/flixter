@@ -85,3 +85,23 @@ body {
 .clr {
       clear: both;
   }
+
+.lesson {
+    background-color: rgb(56, 65, 63);
+    border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+    padding: 20px;
+    margin-top: 10px;
+    height: 180px;
+}
+
+.lesson a {
+    color: white;
+    font-family: Constantie, "Lucida Bright", Ludicabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    font-weight: 150;
+    font-size: 16px;
+}
+
+.lesson a b {
+    font-weight: 100;
+    font-size: 25px;
+}

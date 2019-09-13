@@ -7,7 +7,7 @@
       <%= link_to course.title, course_path(course) %>
     </h3>
     <br />
-    <%= image_tag course.image.to_s, class: 'img-fluid' %>
+    <%= image_tag course.image.to_s, class: 'img-fluid.max-width:100%' %>
     <br />
     <div class="row">
       <div class="col-12 col-sm-8">
@@ -35,6 +35,7 @@
       </div>
     
       <div class="col-12 col-sm-4 text-center">
+      <br />
         <%= link_to "More Info...", course_path(course), class: 'btn btn-sm btn-primary' %>
       </div>
     </div>

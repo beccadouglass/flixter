@@ -1,24 +1,15 @@
-# README
+# Video Streaming App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Full stack web application to offer meditation videos in an elearning environment.  Users can sign up, purchase and sign in to access their courses.  Teachers can sign in to add courses and videos.  Video streaming marketplace platform featuring Stripe API integration, user role management, complex user interfaces and advanced database relationships.
 
-Things you may want to cover:
+TRY IT YOURSELF [https://flixter-beccadouglass.herokuapp.com]
 
-* Ruby version
+WATCH VIDEO DEMO [https://youtu.be/KO7vceiJnfI]
 
-* System dependencies
+BUILT WITH:
+* Ruby
+* Ruby on Rails
+* Bootstrap
+* Postgresql
+* Stripe API
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
